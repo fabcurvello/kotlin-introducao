@@ -22,7 +22,7 @@ fun sum(x: Int, y: Int): Int {                                          // 3
 }
 
 //Inline Function. Toda a função sendo definida em uma única linha
-//Recebe 2 argumentos inteiros e RETORNA o resultado de x * y
+//Recebe 2 argumentos inteiros e RETORNA o resultado de x * y.
 fun multiply(x: Int, y: Int) = x * y                                    // 4
 
 fun main() {
