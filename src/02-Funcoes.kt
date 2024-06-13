@@ -16,10 +16,13 @@ fun printMessageWithPrefix(message: String, prefix: String = "Info") {  // 2
     println("[$prefix] $message") //Interpolação de Strings (feita com $var)
 }
 
+//Função com retorno Int. Possui 2 argumentos Int.
 fun sum(x: Int, y: Int): Int {                                          // 3
     return x + y
 }
 
+//Inline Function. Toda a função sendo definida em uma única linha
+//Recebe 2 argumentos inteiros e RETORNA o resultado de x * y
 fun multiply(x: Int, y: Int) = x * y                                    // 4
 
 fun main() {
