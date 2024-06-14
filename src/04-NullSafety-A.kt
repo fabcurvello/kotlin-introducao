@@ -14,7 +14,7 @@ fun main() {
     var neverNull: String = "This can't be null"            // 1
 //    neverNull = null                                        // 2
 
-    var nullable: String? = "You can keep a null here"      // 3
+    var nullable: String? = "You can keep a null here"      // 3 - A ? deixa explícito que esta var pode ser nula
     nullable = null                                         // 4
 
     var inferredNonNull = "The compiler assumes non-null"   // 5
@@ -24,8 +24,8 @@ fun main() {
         return notNull.length
     }
 
-    strLength(neverNull)                                    // 8
-//    strLength(nullable)                                     // 9
+    print(strLength(neverNull))                                    // 8
+//    print(strLength(nullable))                                     // 9
 }
 
 // As linhas comentadas geram erros propositais
