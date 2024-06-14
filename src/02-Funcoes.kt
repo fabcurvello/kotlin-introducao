@@ -27,9 +27,9 @@ fun multiply(x: Int, y: Int) = x * y                                    // 4
 
 fun main() {
     printMessage("Hello")                                               // 5
-    printMessageWithPrefix("Hello", "Log")                              // 6
-    printMessageWithPrefix("Hello")                                     // 7
-    printMessageWithPrefix(prefix = "Log", message = "Hello")           // 8
-    println(sum(1, 2))                                                  // 9
-    println(multiply(2, 4))                                             // 10
+    printMessageWithPrefix("Hello", "Log")                // 6 - Passando 2 argumentos
+    printMessageWithPrefix("Hello")                             // 7 - Passando 1 argumento (o outro será o default)
+    printMessageWithPrefix(prefix = "Log", message = "Hello")           // 8 - Passando 2 argumentos identificados
+    println(sum(1, 2))                                             // 9
+    println(multiply(2, 4))                                        // 10
 }
