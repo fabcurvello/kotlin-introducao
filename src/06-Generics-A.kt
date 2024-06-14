@@ -5,19 +5,19 @@ package com.fabriciocurvello.helloworld
 // Generic Classes
 // A primeira maneira de usar genéricos em Kotlin é criando classes genéricas.
 
-class MutableStack<E>(vararg items: E) {              // 1
+class MutableStack<E>(vararg items: E) {              // 1 - E é um parâmetro genérico. Vararg E é uma lista desse parametro genérico.
 
     private val elements = items.toMutableList()
 
     fun push(element: E) = elements.add(element)        // 2
 
-    fun peek(): E = elements.last()                     // 3
+    fun peek(): E = elements.last()                     // 3 - Pega o último elemento, mas não o remove.
 
-    fun pop(): E = elements.removeAt(elements.size - 1)
+    fun pop(): E = elements.removeAt(elements.size - 1) // Pega o último elemento e o remove
 
-    fun isEmpty() = elements.isEmpty()
+    fun isEmpty() = elements.isEmpty()  // Valida se a lista está vazia
 
-    fun size() = elements.size
+    fun size() = elements.size  // Tamanho da lista
 
     override fun toString() = "MutableStack(${elements.joinToString()})"
 }
