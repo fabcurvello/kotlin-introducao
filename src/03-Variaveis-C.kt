@@ -1,4 +1,4 @@
-package com.fabriciocurvello.helloworld
+package com.fabriciocurvello.variaveis
 
 // https://play.kotlinlang.org/byExample/01_introduction/03_Variables
 

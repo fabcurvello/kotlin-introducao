@@ -1,4 +1,4 @@
-package com.fabriciocurvello.helloworld
+package com.fabriciocurvello.generics.a
 
 // https://play.kotlinlang.org/byExample/01_introduction/06_Generics
 

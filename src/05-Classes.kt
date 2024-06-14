@@ -1,4 +1,4 @@
-package com.fabriciocurvello.helloworld
+package com.fabriciocurvello.classes
 
 // https://play.kotlinlang.org/byExample/01_introduction/05_Classes
 

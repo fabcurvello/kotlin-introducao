@@ -1,4 +1,4 @@
-package com.fabriciocurvello.helloworld
+package com.fabriciocurvello.funcoes
 
 // Functions - Operator Functions
 // https://play.kotlinlang.org/byExample/01_introduction/02_Functions
